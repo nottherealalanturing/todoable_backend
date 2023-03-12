@@ -8,19 +8,19 @@
 
 User.create!(
   full_name: 'John Doe',
-  phone: '2222222222',
-  password: 'password2')
+  phone: '1234567899',
+  password: 'password1')
 
 User.create!(
   full_name: 'Jane Doe',
-  phone: '3333333333',
-  password: 'password3')  
+  phone: '987654321',
+  password: 'password2')  
 
 p "Patients are successfully created!"
 
 AdminUser.create!(
-  full_name: 'John Boss',
-  phone: '1111111111',
-  password: 'password1')
+  full_name: 'Assad',
+  phone: '000000000',
+  password: 'assad')
 
 p "Admin is successfully created!"
