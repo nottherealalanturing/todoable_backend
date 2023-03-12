@@ -21,7 +21,7 @@ RSpec.describe 'Create Prescription', type: :feature do
   describe 'prescriptions#new' do
     it 'adds data to the form and sucessufully submits' do
       visit new_prescription_path(appointment_id: @appointment.id)
-      fill_in 'Prescript', with: 'Ipsum Ipsum Ipsum'
+      fill_in 'Prescribe', with: 'Ipsum Ipsum Ipsum'
       click_on 'Submit'
       expect(page).to have_content 'All Prescriptions'
     end

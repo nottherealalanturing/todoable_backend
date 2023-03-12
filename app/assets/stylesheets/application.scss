@@ -14,7 +14,8 @@
  *= require_self
  */
 @import "bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,bold,500,600&amp;display=swap");
 
 *,
 *::after,
@@ -24,7 +25,7 @@
 }
 
 :root {
-  --libre-font: "Gemunu Libre", sans-serif;
+  --libre-font: "Poppins", sans-serif;
 }
 
 html,

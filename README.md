@@ -1,8 +1,8 @@
-# Healthcare Center
+# CareCloud Center
 
 > This Ruby on Rails project implements a medical clinic management system.
 
-It has three types of users: 
+It has three types of users:
 
 - Patient (User)
 - Doctor
@@ -56,6 +56,7 @@ Install gems with:
 ```
 bundle install
 ```
+
 Setup database with:
 
 ```
@@ -63,6 +64,7 @@ rails db:create
 rails db:migrate
 rails db:seed
 ```
+
 Then login as admin and create categories and doctors.
 
 ## Usage
@@ -72,6 +74,7 @@ Start server with:
 ```
 rails server
 ```
+
 Open http://localhost:3000/ in your browser.
 
 ## Install linter
@@ -79,6 +82,7 @@ Open http://localhost:3000/ in your browser.
 ```bash
 bundle install
 ```
+
 ## Run tests
 
 Install rspec with:
@@ -86,14 +90,19 @@ Install rspec with:
 ```
 bundle install
 ```
+
 and
+
 ```
 rails generate rspec:install
 ```
+
 run the test with:
+
 ```
 rails exec rspec
 ```
+
 ## Visit And Open Files
 
 [Visit Repo](https://github.com/Gegardus/healthcare-center)

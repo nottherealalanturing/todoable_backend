@@ -16,14 +16,14 @@
         <div class="card p-2">
           <div class="card-body">
             <%= link_to prescription_path(a.prescription.id), class: "link-success p-2" do %>
-              <p class="text-center px-5 mx-1"><strong>Written prescript</strong></p>
+              <p class="text-center px-5 mx-1"><strong>Written a prescription</strong></p>
             <% end %>
         <p>Appointment Status: <strong class="text-danger">Closed</strong></p>       
       <% else %>
         <div class="card p-2">
           <div class="card-body">
             <%= link_to new_prescription_path(appointment_id: a.id), class: "link-danger p-2" do %>
-              <p class="text-center px-5 mx-1"><strong>Write a prescript</strong></p>
+              <p class="text-center px-5 mx-1"><strong>Write a prescription</strong></p>
             <% end %>
             <p>Appointment Status: <strong class="text-primary">Opened</strong></p> 
       <% end %>
