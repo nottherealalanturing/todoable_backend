@@ -21,6 +21,6 @@ p "Patients are successfully created!"
 AdminUser.create!(
   full_name: 'Assad',
   phone: '000000000',
-  password: 'assad')
+  password: 'password')
 
 p "Admin is successfully created!"
